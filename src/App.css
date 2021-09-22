@@ -1,0 +1,126 @@
+body {background-color: rgb(29, 30, 31);}
+
+
+
+
+
+#header{
+    height: 60px;
+    border-bottom: 1px solid #dfe1e5; 
+}
+
+
+
+.bg-company-red {
+    background-color: rgb(29, 30, 31) ;
+}
+
+
+#header .container .navbar-brand p{
+
+    position:fixed;
+    left: 10px;
+    top: 8px;
+    margin-right: 0%;
+    color: rgb(160, 160, 160);
+    font-family: "Fantasy", Copperplate, fantasy; 
+    font-size: 30px;
+    
+
+}
+
+
+#header p1{
+    color: rgb(183, 69, 228);
+    font-size: 18px;
+    position: fixed;
+    justify-content: center;
+    left: 270px;
+
+}
+
+#header .container  p2{
+
+    position:fixed;
+    left: 585px;
+    top: 8px;
+    margin-right: 0%;
+    color: rgb(160, 160, 160);
+    font-family: "Fantasy", Copperplate, fantasy; 
+    font-size: 30px;
+    
+
+}
+
+#header .range-slider{
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+.form-range::-webkit-slider-thumb {
+    background: rgb(183, 69, 228);
+  }
+.form-range::-webkit-slider-thumb:hover{
+    background: rgb(183, 69, 228, 0.7);
+  }
+.form-range::-webkit-slider-thumb:active {
+    background: rgb(183, 69, 228, 0.7);
+  }
+
+
+#header .new-array{
+    position: fixed;
+    margin-left: 380px;
+}
+
+
+#header .btn-outline-primary{
+    
+    color: rgb(183, 69, 228) !important;
+    border-color: rgb(183, 69, 228) !important;
+}
+
+#header .btn-outline-primary:hover{
+    background-color: rgb(183, 69, 228) !important;
+    color: rgb(29, 30, 31) !important;
+}
+
+
+
+#header .new-array{
+    position: fixed;
+    margin-left: 300px;
+}
+
+#header .bubble-sort{
+    position: fixed;
+    margin-left: 480px;
+}
+
+#header .merge-sort{
+    position: fixed;
+    margin-left: 600px;
+}
+
+
+
+
+.array-container{
+    display: flex;
+    width: 90%;
+    align-items:flex-end;
+    justify-content:center;
+    vertical-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+.array-bar {
+    
+    width: 3px;
+    display: inline-block;
+    margin: 0 1px;
+
+}
