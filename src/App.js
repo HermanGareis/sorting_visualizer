@@ -178,7 +178,6 @@ class App extends React.Component {
           <div className="range-slider">
             <input type="range" class="form-range" min="0.5" max="2" step="0.01" defaultValue="1" id="customRange"/>       
           </div>
-          <p2>|</p2>
           <div className="new-array">
               <button type="button" id='button1' class="btn btn-outline-primary navbar-btn"  onClick={() => this.generateRandomArray()}> 
               Generate New Array
